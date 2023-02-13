@@ -1,7 +1,6 @@
+import header from "@/components/header"
 
-const NotFoundPage = () => {
-    return
-    `<h1>NotFoundPage</h1>`
-}
+const NotFoundPage = `
+    <h1>NotFoundPage</h1>`
 
 export default NotFoundPage

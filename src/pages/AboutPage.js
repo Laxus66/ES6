@@ -1,6 +1,6 @@
-const AboutPage = () => {
-    return
-    `<h1>AboutPage</h1>`
-}
+import header from "@/components/header";
 
-export default AboutPage
+const AboutPage = `
+    ${header()}
+    <h1>AboutPage</h1>`
+export default AboutPage;
